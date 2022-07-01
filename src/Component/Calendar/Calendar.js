@@ -9,6 +9,7 @@ const Calendar = () => {
     return (
         <div className='m-auto w-80'>
             <DayPicker
+            className='m-auto'
                 mode="single"
                 selected={selected}
                 onSelect={setSelected}                
